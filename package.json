@@ -1,0 +1,25 @@
+{
+  "name": "vcmp-yt-mp3",
+  "version": "1.0.0",
+  "description": "Youtube to MP3 for VCMP",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "database.json"
+    ]
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "newhere491",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "taffy": "^2.6.2",
+    "youtube-mp3-downloader": "^0.7.7",
+    "yt-search": "^2.8.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "Status": {
+    "SUCCESS": "success",
+    "ERROR": "error"
+  },
+  "MaxTimeLimit": 600,
+  "MaxDBFiles": 10
+}
